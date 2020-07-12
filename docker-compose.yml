@@ -1,0 +1,18 @@
+version: '2.1'
+services:
+
+
+  datascience-notebook:
+    image: mhs_jupyter
+    build:
+      context: .
+      dockerfile: docker/mhs_jupyter/Dockerfile
+    ports:
+      - '5001:8888'
+    environment:
+      - JUPYTER_ENABLE_LAB=1
+      - MONGO_HOST=mongo
+      - MONGO_PORT=27017
+    volumes:
+      - '.:/home/jovyan/work'
+    working_dir: /home/jovyan/work

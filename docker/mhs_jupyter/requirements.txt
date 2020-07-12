@@ -1,0 +1,14 @@
+numpy
+pandas
+geopandas
+scipy
+
+seaborn
+matplotlib
+sklearn
+statsmodels
+
+pymc3
+theano
+networkx
+geopandas
