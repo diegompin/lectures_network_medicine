@@ -1,2 +1,2 @@
 # Lectures on Network Medicine
-Lectures on Probability and Statistics
+ Lectures on Network Medicine
